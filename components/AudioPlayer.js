@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const AudioPlayer = () => {
   return (
-    <div className="container">
-      <div className="">
+    <div className="">
+      <div className="bg-white rounded-t-xl p-8 space-y-8">
         <div className="flex items-center space-x-5">
           <Image src="/full-stack-radio.png" className="w-20 h-20 rounded-lg bg-gray-100" width="160" height="160" />
           <div className="">
@@ -24,7 +24,7 @@ const AudioPlayer = () => {
           </div>
         </div>  
       </div> 
-      <div>
+      <div className="bg-gray-50 rounded-b-xl px-5 py-4 grid grid-cols-7 items-center">
         <button type="button">
           <svg width="24" height="24" fill="none">
             <path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
@@ -61,7 +61,7 @@ const AudioPlayer = () => {
             <path d="M13 9L0 0V18L13 9Z" fill="currentColor" />
           </svg>
         </button>
-        <button type="button" class="border border-gray-300 rounded-md text-sm font-medium py-0.5 px-2 text-gray-500">
+        <button type="button" class="mx-auto border border-gray-300 rounded-md text-sm font-medium py-0.5 px-2 text-gray-500">
           1.0x
         </button>  
       </div>
