@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import AudioPlayer from '../components/AudioPlayer'
 
 const Home = () => {
   return (
@@ -6,7 +7,7 @@ const Home = () => {
       <Head>
         <title>Audio Player</title>
       </Head>
-
+      <AudioPlayer />
     </div>
   )
 }
